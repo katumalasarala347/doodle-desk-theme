@@ -17,6 +17,18 @@ This is an implementation of a **multi-theme frontend system** for the GoGetWell
 - Zustand for theme state
 - Tailwind CSS (with custom theme variables)
 
+## 🎨 Theme Screenshots
+
+### Default Theme
+![Default](./screenshots/default-theme.png)
+
+### Transplant Theme
+![Transplant](./screenshots/transplant-theme.png)
+
+### Cosmetic Theme
+![Cosmetic](./screenshots/cosmetic-theme.png)
+
+
 ##  How to Run
 
 ```bash
@@ -24,6 +36,11 @@ npm install
 npm start
 
 “Docker and Caddy setup was not used in local testing. The application was tested on localhost:3000 as per standard React dev setup.”
+
+Author
+Name: Katumala Sarala
+Email: katumalasarala29@gmail.com
+GitHub: https://github.com/katumalasarala347
 
 
 
