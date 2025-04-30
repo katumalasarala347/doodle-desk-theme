@@ -17,7 +17,7 @@ This is an implementation of a **multi-theme frontend system** for the GoGetWell
 - Zustand for theme state
 - Tailwind CSS (with custom theme variables)
 
-## 🎨 Theme Screenshots
+##  Theme Screenshots
 
 ### Default Theme
 ![Default](./screenshots/default-theme.png)
