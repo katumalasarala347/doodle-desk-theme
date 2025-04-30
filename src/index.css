@@ -1,13 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Theme */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --color-primary: #007bff;
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --font-main: 'Arial';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Cosmetic Theme */
+body.theme-cosmetic {
+  --color-primary: #e91e63;
+  --color-bg: #fff0f6;
+  --color-text: #3f3f3f;
+  --font-main: 'Georgia';
+}
+
+/* Transplant Theme */
+body.theme-transplant {
+  --color-primary: #4caf50;
+  --color-bg: #f1fff1;
+  --color-text: #2e2e2e;
+  --font-main: 'Courier New';
 }
